@@ -1,5 +1,7 @@
 import json
 
+valid_token = "afonsomeda10"
+
 def lambda_handler(event, context):
     try:
         if 'headers' in event and 'Authorization' in event['headers']:
