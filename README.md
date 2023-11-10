@@ -24,12 +24,14 @@ No Postman, ou qualquer outra plataforma de APIs, envie seu JSON com Bearer Toke
 ### Exemplo de body
 ```json
 {
-    "{\"name\": \"Vitor\", \"age\": 19, \"enrolment\": \"System Information\"}"
+  "body": "{\"name\": \"Vitor\", \"age\": 19, \"enrolment\": \"System Information\"}"
 }
 ````
 
 ## 3.0 Testes de unidade
-Foram realizados testes de unidade a fim de garantir a funcionalidade da função Lambda em casos de requisições não autorizadas ou mal estruturadas. A partir desses testes podemos saber se cumprimos ou não com as regras de negócio estabelecidas no projeto.
+Foram realizados testes de unidade a fim de garantir a funcionalidade da função Lambda em casos de requisições não autorizadas ou mal estruturadas. A partir desses testes podemos saber se cumprimos ou não com as regras de negócio estabelecidas no projeto. Os testes também podem ser realizados diretamente pela AWS em _Test > Configure test event_:
+
+![image](https://github.com/VitorMoura01/API-Gateway/assets/99188092/bb61ca7f-fbd2-4920-ae4f-8abee982ba5c)
 
 ### 3.1 Não foi enviado o token
 resultado esperado: Token ausente no header da requisição 
