@@ -35,6 +35,7 @@ Foram realizados testes de unidade a fim de garantir a funcionalidade da funçã
 
 ### 3.1 Não foi enviado o token
 resultado esperado: Token ausente no header da requisição 
+</br>
 body:
 ![image](https://github.com/VitorMoura01/API-Gateway/assets/99188092/74b41588-053b-4b71-8af7-0f68878a56a8)
 resultado obtido:
@@ -43,6 +44,7 @@ resultado obtido:
 
 ### 3.2 Foi enviado o token, porém não condiz com o esperado
 resultado esperado: Token inválido
+</br>
 resultado obtido:
 ![image](https://github.com/VitorMoura01/API-Gateway/assets/99188092/9db824ef-e2c1-4c39-96a7-c0a0877fe7e5)
 **Passou no teste.**
@@ -50,6 +52,7 @@ resultado obtido:
 
 ### 3.3 Não foi enviado um body na estrutura do JSON
 resultado esperado: Nenhum body presente na requisição (Bad Request)
+</br>
 resultado obtido:
 ![image](https://github.com/VitorMoura01/API-Gateway/assets/99188092/6918f65e-ca9b-44ff-986b-ec19591448c2)
 **Passou no teste.**
